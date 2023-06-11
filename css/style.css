@@ -11,7 +11,6 @@
 header {
     background-color: #fb8500;
     color: white;
-    margin-bottom: 40px;
 }
 
 header h1 {
@@ -38,15 +37,26 @@ a {
     transition: 0.3s;
 }
 
-p, button {
+p, button, label {
     line-height: 1.6;
 }
 
 button {
     border: 0;
     border-radius: 10px;
-    background-color: #023047;
     color: #fff;
+    background-color: #fb8500;
+}
+
+input {
+	background-color: rgb(237,237,237);
+	border: 0;
+	border-radius: 10px;
+	height: 30px;
+}
+
+input:focus {
+	outline: none;
 }
 
 .block-content button {
@@ -64,23 +74,39 @@ a:hover {
 
 footer {
     background-color: rgb(237,237,237);
+    padding: 20px;
 }
 
-main {
-    width: 90%;
-    margin: 0 auto 0 auto;
-}
+
 main img {
-    width: 500px;
     margin-right: 150px;
 }
+
 img {
-    border-radius: 15px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 50%;
+
 }
 
-#dual-content {
-    display: flex;
+form label {
+	margin-right: 5vh;
+}
+
+form input {
+	width: 40%
+}
+
+#whats-form {
+	margin: 10vh auto 20% auto;
+	width: 90%;
+}
+
+.back-image {
+    background-image: url("../img/intro.webp");
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
 }
 
 .block-content {
@@ -89,4 +115,15 @@ img {
 
 .block-content h2, .block-content p {
     margin-bottom: 15px;
+}
+
+.center {
+	margin: auto;
+	padding: 40vh;
+	text-align: center;
+}
+
+.center button {
+	width: 100%;
+	height: 50px;
 }

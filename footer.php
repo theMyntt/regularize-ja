@@ -1,3 +1,3 @@
 <footer>
-    <p>Todos os direitos reservados, 2023 &copy; </p>
+    <p>&copy; 2023 Regulariza já. Todos os direitos reservados. </p>
 </footer>

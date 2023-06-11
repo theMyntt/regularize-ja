@@ -1,5 +1,6 @@
+<script src="js/script.js"></script>
 <header>
-    <h1>Regularize já!</h1>
+    <h1 class="inicio">Regularize já!</h1>
     <nav>
         <ul>
             <li><a href="index.php">Início</a></li>

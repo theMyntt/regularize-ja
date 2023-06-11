@@ -1,18 +1,19 @@
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Regularize já - Contato</title>
-</head>
 
+<?php include "head.php" ?>
 <body>
     <?php include "masterpage.php"; ?>
     <main>
-        <a href="https://api.whatsapp.com/send?phone=5511988682865&text=Olá,%20vim%20pelo%20seu%20site!" target="_blank">Enviar mensagem
-            pelo WhatsApp</a>
-
+    	<div id="whats-form">
+    		<img src="img/contact.webp">
+            <h2>Envie uma mensagem. podemos te ajudar!</h2> <br>
+            	<form action="whatsapp.php" method="POST">
+            		<label for="nome">Qual o seu nome?</label> 
+            		<input type="text" name="nome" placeholder=" Digite aqui!" required> <br> <br>
+            		<button type="submit">Enviar mensagem pelo Whatsapp!</button>
+            	</form>
+   	 	</div>
     </main>
     <?php include "footer.php"; ?>
 </body>
