@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Circular;
+    src: url("font/CircularBold.otf");
+}
+
+* {
+    margin: 0;
+    font-family: Circular;
+}
+
+header {
+    background-color: #fb8500;
+    color: white;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    padding: 20px 0 20px 1cm;
+}
+
+nav ul {
+    background-color: #ffa947;
+    list-style-type: none;
+    display: flex;
+    height: 30px;
+    padding-top: 10px;
+}
+
+header nav ul li {
+    margin-right: 15px;
+}
+
+a, button {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+p, button {
+    line-height: 1.6;
+}
+
+button {
+    border: 0;
+    border-radius: 10px;
+    background-color: #023047;
+    color: #fff;
+}
+
+.block-content button {
+    width: 260px;
+    height: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+a:hover {
+    color: #00f;
+}
+
+footer {
+    background-color: rgb(237,237,237);
+}
+
+main {
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+main img {
+    width: 500px;
+    margin-right: 150px;
+}
+img {
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#dual-content {
+    display: flex;
+}
+
+.block-content {
+    display: block;
+}
+
+.block-content h2, .block-content p {
+    margin-bottom: 15px;
+}
