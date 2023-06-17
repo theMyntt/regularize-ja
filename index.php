@@ -4,17 +4,25 @@
 <?php include "head.php" ?>
 
 <body>
-    <div id="wrapper">
-        <?php include "masterpage.php"; ?>
+	<div id="wrapper">
+        <?php include "mpages/masterpage.php"; ?>
         <main>
-            <div class="back-image">
+			<div class="back-image">
 				<div class="center">
-					<h2>Seu imóvel regularizado em um piscar de olhos.</h2>
+					<h2>
+						Seu imóvel <span>regularizado</span> em um piscar de <span>olhos.</span>
+					</h2>
 					<button onclick="location.href = 'contato.php'">Quero saber mais!</button>
 				</div>
-            </div>
-        </main>
-        <?php include "footer.php"; ?>
+			</div>
+			<div class="principal-content">
+				<article>
+					<h2>Quem sou eu?</h2>
+					<p></p>
+				</article>
+			</div>
+		</main>
+        <?php include "mpages/footer.php"; ?>
     </div>
 </body>
 
