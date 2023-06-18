@@ -90,10 +90,6 @@ form label {
 	margin-right: 5vh;
 }
 
-form input {
-	width: 40%
-}
-
 .center h2 {
 	color: #000;
 }
@@ -145,9 +141,28 @@ h2 span {
 	.principal-content {
 		padding: 5vh 1vh 0 5vh
 	}
+	.center button {
+		font-size: 20px;
+		height: 60px;
+	}
+	form button {
+		font-size: 15px;
+		width: 100%;
+		height: 40px;
+	}
+	form label {
+		margin-right: 5%;
+	}
+	input {
+		width: 100%
+	}
 }
+
 @media only screen and (min-width: 837px) {
 	.principal-content {
 		padding: 20vh 0 2vh 20vh;
+	}
+	form input {
+		width: 40%
 	}
 }

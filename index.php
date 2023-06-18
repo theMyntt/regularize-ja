@@ -18,7 +18,7 @@
 			<div class="principal-content">
 				<article>
 					<h2>Quem sou eu?</h2>
-					<p>Olá, Meu nome é Suellen Mendes Araújo</p>
+					<p>Olá, Meu nome é Suellen Mendes Araújo. Sou advogada pela OAB</p>
 				</article>
 			</div>
 		</main>
